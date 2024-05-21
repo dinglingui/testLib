@@ -310,7 +310,7 @@ extern NSNotificationName const CPDFViewPageChangedNotification;
 @property (nonatomic,assign) BOOL scrollEnabled;
 
 /**
- * A Boolean value that determines whether scrolling is disabled in the vertical direction for the document view.
+ * A Boolean value that determines whether zoom is disabled for the document view.
  */
 @property (nonatomic,assign) BOOL directionaHorizontalLockEnabled;
 
