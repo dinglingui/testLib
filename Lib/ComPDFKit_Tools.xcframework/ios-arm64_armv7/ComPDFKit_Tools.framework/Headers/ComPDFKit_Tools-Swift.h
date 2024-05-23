@@ -1115,6 +1115,7 @@ SWIFT_CLASS("_TtC15ComPDFKit_Tools15CWatermarkModel")
 
 
 
+
 #endif
 #if defined(__cplusplus)
 #endif

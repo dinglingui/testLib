@@ -24077,6 +24077,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ComPDFKit_Tools",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "ComPDFKit",
         "printedName": "ComPDFKit",
         "declKind": "Import",
@@ -32282,6 +32292,32 @@
         "name": "CPDFPageIndicatorView",
         "printedName": "CPDFPageIndicatorView",
         "children": [
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ComPDFKit_Tools@objc(cs)CPDFPageIndicatorView(im)layoutSubviews",
+            "mangledName": "$s15ComPDFKit_Tools21CPDFPageIndicatorViewC14layoutSubviewsyyF",
+            "moduleName": "ComPDFKit_Tools",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
           {
             "kind": "Constructor",
             "name": "init",

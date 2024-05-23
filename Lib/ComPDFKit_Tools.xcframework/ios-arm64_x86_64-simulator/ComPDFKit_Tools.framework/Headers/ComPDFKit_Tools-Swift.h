@@ -727,6 +727,7 @@ SWIFT_CLASS("_TtC15ComPDFKit_Tools21CPDFPageIndicatorView")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
@@ -1108,6 +1109,7 @@ SWIFT_CLASS("_TtC15ComPDFKit_Tools15CWatermarkModel")
 @interface CWatermarkModel : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
@@ -1851,6 +1853,7 @@ SWIFT_CLASS("_TtC15ComPDFKit_Tools21CPDFPageIndicatorView")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
@@ -2232,6 +2235,7 @@ SWIFT_CLASS("_TtC15ComPDFKit_Tools15CWatermarkModel")
 @interface CWatermarkModel : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 

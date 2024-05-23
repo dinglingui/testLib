@@ -24077,6 +24077,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ComPDFKit_Tools",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "ComPDFKit",
         "printedName": "ComPDFKit",
         "declKind": "Import",

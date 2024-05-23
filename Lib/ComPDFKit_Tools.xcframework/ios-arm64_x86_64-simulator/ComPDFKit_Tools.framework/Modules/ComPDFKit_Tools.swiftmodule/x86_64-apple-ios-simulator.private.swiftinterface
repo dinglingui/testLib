@@ -871,6 +871,7 @@ public enum CPDFPageIndicatorViewPosition : Swift.Int {
   }
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class CPDFPageIndicatorView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class CWatermarkModel : ObjectiveC.NSObject {
