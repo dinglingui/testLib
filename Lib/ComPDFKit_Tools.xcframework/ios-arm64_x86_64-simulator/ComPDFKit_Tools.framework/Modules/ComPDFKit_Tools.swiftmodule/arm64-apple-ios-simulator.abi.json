@@ -35641,13 +35641,6 @@
         "moduleName": "ComPDFKit_Tools"
       },
       {
-        "kind": "Import",
-        "name": "ComPDFKit_Tools",
-        "printedName": "ComPDFKit_Tools",
-        "declKind": "Import",
-        "moduleName": "ComPDFKit_Tools"
-      },
-      {
         "kind": "TypeDecl",
         "name": "CPDFViewController",
         "printedName": "CPDFViewController",
@@ -57197,7 +57190,7 @@
     {
       "filePath": "\/Users\/dinglingui\/项目\/研发\/KMPDFKit\/Swift\/ComPDFKit_Tools\/ComPDFKit_Tools\/Common\/Controls\/PDFViewController\/CPDFViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2014,
+      "offset": 1991,
       "length": 5,
       "value": "false"
     },
