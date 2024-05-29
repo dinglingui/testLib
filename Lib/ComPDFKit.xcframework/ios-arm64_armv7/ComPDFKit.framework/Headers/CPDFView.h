@@ -359,6 +359,11 @@ extern NSNotificationName const CPDFViewPageChangedNotification;
 - (void)setEditAnnotationFreeTextBorder:(CPDFBorder *_Nullable)border;
 - (void)setEditAnnotationFreeAlignment:(NSTextAlignment)alignment;
 
+#pragma mark - Form Annotation
+
+- (BOOL)isEditFormText;
+
+- (void)commitEditFormText;
 
 #pragma mark - Page
 

@@ -614,7 +614,9 @@ SWIFT_CLASS("_TtC15ComPDFKit_Tools19CPDFKeyboardToolbar")
 
 SWIFT_CLASS("_TtC15ComPDFKit_Tools12CPDFListView")
 @interface CPDFListView : CPDFView <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (void)layoutSubviews;
 @property (nonatomic, readonly) BOOL canBecomeFirstResponder;
@@ -725,6 +727,7 @@ SWIFT_CLASS("_TtC15ComPDFKit_Tools21CPDFPageIndicatorView")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
@@ -834,6 +837,7 @@ SWIFT_CLASS("_TtC15ComPDFKit_Tools10CPDFSlider")
 - (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
 - (void)touchesMoved:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
 - (void)touchesEnded:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesCancelled:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
@@ -1106,6 +1110,7 @@ SWIFT_CLASS("_TtC15ComPDFKit_Tools15CWatermarkModel")
 @interface CWatermarkModel : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
@@ -1736,7 +1741,9 @@ SWIFT_CLASS("_TtC15ComPDFKit_Tools19CPDFKeyboardToolbar")
 
 SWIFT_CLASS("_TtC15ComPDFKit_Tools12CPDFListView")
 @interface CPDFListView : CPDFView <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (void)layoutSubviews;
 @property (nonatomic, readonly) BOOL canBecomeFirstResponder;
@@ -1847,6 +1854,7 @@ SWIFT_CLASS("_TtC15ComPDFKit_Tools21CPDFPageIndicatorView")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
@@ -1956,6 +1964,7 @@ SWIFT_CLASS("_TtC15ComPDFKit_Tools10CPDFSlider")
 - (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
 - (void)touchesMoved:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
 - (void)touchesEnded:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (void)touchesCancelled:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
@@ -2228,6 +2237,7 @@ SWIFT_CLASS("_TtC15ComPDFKit_Tools15CWatermarkModel")
 @interface CWatermarkModel : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
